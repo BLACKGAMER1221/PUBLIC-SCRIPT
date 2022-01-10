@@ -104,7 +104,7 @@ end
 function library:Window(name) 
     windowCount = windowCount + 1
     local winCount = windowCount
-    local zindex = winCount * 8
+    local zindex = winCount * 7
     local UiWindow = Instance.new("Frame")
 
     UiWindow.Name = "UiWindow"
